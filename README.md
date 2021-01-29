@@ -9,7 +9,6 @@
 - Install packages and dependencies
 - Checkout to a new branch
 - Do some code! ⛏
+    - The wrong way ❌ (Do not do this! 🙈)
+    - The right way ✅ (Do this 😎) 
 - Test your code! ✔
-### The wrong way ❌ (Do not do this! 🙈)
-
-### The right way ✅ (Do this 😎) 
