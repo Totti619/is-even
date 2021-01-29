@@ -37,7 +37,7 @@ Go to the end of the file (press End on you keyboard) and add another 'if' line 
 ```
 const isEven = (number: number): boolean =>  {
     if (number === 0) return true
-  + if (number === 1) return false
+  + if (number === {your_number}) return false
     return false
 }
 ```
@@ -47,15 +47,15 @@ In test/, create a new file and name it {your_number}.spec.ts
 Example testing code:
 ```
 import isEven from '../src/isEven'
-it('should say 1 is not even', async() => {
-    expect(isEven(1)).toBe(false)
-    expect(isEven(1)).not.toBe(true)
+it('should say {your_number} is/is not even', async() => {
+    expect(isEven({your_number})).toBe(false)
+    expect(isEven({your_number})).not.toBe(true)
 })
 ```
 
 - Test your code! ✔
 
-```yarn test``` or ````npm test```
+```yarn test``` or ```npm test```
 
 - Commit your changes
 
